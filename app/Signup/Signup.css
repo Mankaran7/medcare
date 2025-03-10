@@ -1,0 +1,160 @@
+/* General Page Styling */
+.container {
+    display: flex;
+    justify-content: center;
+  
+    width: 100%;
+    height: 100vh;
+    background-image: url('/loginbackground.png'); 
+    background-size: cover;
+    background-position: center;
+   
+  
+  }
+  
+  .loginBox {
+    background: rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(10px);
+   
+    border-radius: 10px;
+    width: 350px;
+    border: 1px solid #EFEFEF;
+    text-align: center;
+    padding: 30px 24px;
+    color: rgba(14, 37, 21, 1);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 32px;
+    color: rgba(14, 37, 21, 1);
+  }
+  
+  p {
+    font-size: 14px;
+    color: rgba(140, 140, 140, 1);
+    text-align: left;
+  }
+  
+  .signupLink {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(28, 74, 42, 1);
+  
+    text-decoration: none;
+  }
+  
+  .signupLink:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: rgba(140, 140, 140, 1);
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #004d00;
+  }
+  
+  /* Password Visibility */
+  /* Password Input with Icon using Flex */
+  .passwordGroup {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: white;
+    gap: 10px; /* Space between input and icon */
+  }
+  
+  .passwordGroup input {
+    flex: 1; /* Takes remaining space */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    background: transparent;
+  }
+  
+  .passwordGroup .eyeIcon {
+    font-size: 18px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  /* Buttons */
+  .loginBtn {
+    width: 100%;
+    padding: 10px;
+    background:rgba(28, 74, 42, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .loginBtn:hover {
+    background: #003300;
+  }
+  
+  .resetBtn {
+    width: 100%;
+    padding: 10px;
+    background: #C6B09A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .resetBtn:hover {
+    background: #888;
+  }
+  
+  /* Forgot Password */
+  .forgotPassword {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .forgotPassword a {
+    text-decoration: none;
+    color: #0E2515;
+  }
+  
+  .forgotPassword a:hover {
+    text-decoration: underline;
+  }
+  

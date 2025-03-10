@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 60px 36px 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    height: 15%;
+   
+   
+    
+  }
+  
+  .logo {
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    color: #1c4A2A;
+    font-size: 28px;
+    letter-spacing: -1%;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+  }
+  
+  .navLinks li {
+    font-size: 18px;
+    color: #8C8C8C;
+  }
+  
+  .navLinks a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+  
+  .navLinks a:hover {
+    color: #1f3b1f;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    height: 44px;
+  }
+  
+  .loginBtn {
+    padding: 12px 32px;
+    border: 1px solid #E0E8E0;
+    background: white;
+    color: #1f3b1f;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .loginBtn:hover {
+    background: #1c4A2A;
+    color: white;
+  }
+  
+  .registerBtn {
+    padding: 12px 32px;
+    border: none;
+    background: #1c4A2A;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .registerBtn:hover {
+    background: #145214;
+  }
+  .Links{
+    display: flex;
+    gap: 20px;
+  }
+  
