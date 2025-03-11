@@ -1,10 +1,23 @@
 .container{
     margin: 50px;
+    
 }
 .search-results h2,.search-results p{
     text-align: center;
 }
 .search-results h2{
+    margin-top: 5%;
     font-weight: 500;
     font-size: 60px;
+    margin-bottom: 3%;
+
+
+}
+.search-results p{
+    color:#8C8C8C;
+}
+.search-content{
+    margin-top: 3%;
+    display: flex;
+    gap: 20px;
 }

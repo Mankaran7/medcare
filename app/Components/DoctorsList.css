@@ -66,22 +66,23 @@
   }
   
   .book-btn {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 15px;
+    background-color:#F8FCF9 ;
+    color: #0E2515;
+    font-weight: 500;
+    padding: 20px 40px;
+    font-size: 18px;
     border: none;
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
     margin-top: 10px;
-    transition: background 0.2s ease-in-out;
+    border: 1px solid #DEDEDE;
+   
   }
   
-  .book-btn:hover {
-    background: #45A049;
-  }
+ 
   
-  /* Responsive Fixes 
+  
   @media (max-width: 1024px) {
     .doctors-list {
       justify-content: center;
@@ -90,7 +91,7 @@
   
   @media (max-width: 768px) {
     .doctor-card {
-      width: 90%; /* Make cards take up more space on smaller screens 
+      width: 90%; 
     }
-  }*/
+  }
   

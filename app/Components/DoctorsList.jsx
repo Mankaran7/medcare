@@ -9,7 +9,7 @@ const doctors = [
       specialty: "Dentist",
       experience: "9 Years",
       rating: 4,
-      image: "https://via.placeholder.com/150",
+      image: "https://www.shutterstock.com/image-vector/male-doctor-smiling-happy-face-600nw-2481032615.jpg",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const doctors = [
       specialty: "Dentist",
       experience: "5 Years",
       rating: 5,
-      image: "https://via.placeholder.com/150",
+      image: "https://www.shutterstock.com/image-vector/male-doctor-smiling-happy-face-600nw-2481032615.jpg",
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const doctors = [
       specialty: "Dentist",
       experience: "5 Years",
       rating: 4,
-      image: "https://via.placeholder.com/150",
+      image: "https://www.shutterstock.com/image-vector/male-doctor-smiling-happy-face-600nw-2481032615.jpg",
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ const doctors = [
       specialty: "Neurologist",
       experience: "15 Years",
       rating: 5,
-      image: "https://via.placeholder.com/150",
+      image: "https://www.shutterstock.com/image-vector/male-doctor-smiling-happy-face-600nw-2481032615.jpg",
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ const doctors = [
       specialty: "Cardiologist",
       experience: "20 Years",
       rating: 5,
-      image: "https://via.placeholder.com/150",
+      image: "https://www.shutterstock.com/image-vector/male-doctor-smiling-happy-face-600nw-2481032615.jpg",
     },
     {
       id: 6,
@@ -54,7 +54,7 @@ const doctors = [
       specialty: "Pediatrician",
       experience: "10 Years",
       rating: 4,
-      image: "https://via.placeholder.com/150",
+      image: "https://www.shutterstock.com/image-vector/male-doctor-smiling-happy-face-600nw-2481032615.jpg",
     },
     {
       id: 7,

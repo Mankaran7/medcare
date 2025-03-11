@@ -11,7 +11,7 @@ export default function home(){
             <div className="search-results">
             <h2>6 doctors available</h2>
             <p className="search-description">Book appointments with minimum wait-time & verified doctor details</p>
-            <div className="search-content" style={{display:"flex",gap:"40px"}}>
+            <div className="search-content" >
              <FilterSidebar />
              <DoctorsList/>
             </div>
