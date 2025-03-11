@@ -1,0 +1,49 @@
+.filter-sidebar {
+    width: 20%;
+    
+  }
+  
+  .filter-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .filter-section {
+    margin-bottom: 25px;
+    background-color: #FBFBFB;
+    border: 1px solid #E0E8E0;
+    padding: 20px;
+  }
+  
+  .filter-section-title {
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  
+  .filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .filter-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  
+  .filter-label {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .filter-sidebar {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  

@@ -1,0 +1,96 @@
+.doctors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 70%;
+  }
+  
+  .doctor-card {
+    background: #F8FCF9;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 300px;  
+    gap:10px;
+
+  }
+  
+  .doctor-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #e0e0e0;
+    background: #fff;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .degree {
+    font-weight: normal;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .specialty {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 5px 0;
+  }
+  
+  .ratings {
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  .stars {
+    color: gold;
+    font-size: 20px;
+  }
+  
+  .book-btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .book-btn:hover {
+    background: #45A049;
+  }
+  
+  /* Responsive Fixes 
+  @media (max-width: 1024px) {
+    .doctors-list {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .doctor-card {
+      width: 90%; /* Make cards take up more space on smaller screens 
+    }
+  }*/
+  

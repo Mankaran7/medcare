@@ -1,13 +1,14 @@
 "use client";
-import './Signup.css'
+
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
+import './Signup.css';
 
-
-function Signup() {
+function Signup(){
   const [formData, setFormData] = useState({
+    Name:'',
     email: '',
     password: ''
   });
@@ -23,23 +24,39 @@ function Signup() {
 
   return (
     <div className="container">
-      <div className="loginBox">
-        <h2>Signup</h2>
-        <p>Already a member? 
-          <Link href="/signup" className="signupLink"> Login</Link>
+      <div className="signinBox">
+        <h2>Sign Up</h2>
+        <p>Already a Member? 
+          <Link href="/Login" className="loginlink"> Login</Link>
         </p>
 
         <form onSubmit={handleSubmit}>
           {/* Email Input */}
           <div className="inputGroup">
-            <label>Role</label>
-           <select id='role'>
-             <option value="admin">Admin</option>
-             <option value="patient">Patient</option>
-           </select>
+            <label>Name</label>
+            <input 
+              type='text'
+              name='Name'
+              placeholder="Enter your Name" 
+              value={formData.Name}
+              onChange={handleChange}
+              required 
+            />
+          </div>
+          <div className="inputGroup">
+            <label>Email</label>
+            <input 
+              type="email" 
+              name="email" 
+              placeholder="Enter your email" 
+              value={formData.email}
+              onChange={handleChange}
+              required 
+            />
           </div>
 
-          
+          {/* Password Input */}
+          {/* Password Input */}
 <div className="inputGroup">
   <label>Password</label>
   <div className="passwordGroup">
@@ -57,16 +74,14 @@ function Signup() {
   </div>
 </div>
 
-        
-          <button type="submit" className="loginBtn">Login</button>
-          <button type="reset" className="resetBtn" onClick={() => setFormData({ email: '', password: '' })}>
+          {/* Buttons */}
+          <button type="submit" className="signinBtn">Submit</button>
+          <button type="reset" className="resetBtn" onClick={() => setFormData({ naam:"",email: '', password: '' })}>
             Reset
           </button>
         </form>
 
-        <p className="forgotPassword">
-          <Link href="/">Forgot Password?</Link>
-        </p>
+      
       </div>
     </div>
   );

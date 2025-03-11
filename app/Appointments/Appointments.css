@@ -1,0 +1,10 @@
+.container{
+    margin: 50px;
+}
+.search-results h2,.search-results p{
+    text-align: center;
+}
+.search-results h2{
+    font-weight: 500;
+    font-size: 60px;
+}
